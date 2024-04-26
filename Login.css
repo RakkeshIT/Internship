@@ -36,6 +36,8 @@ form h1 {
     font-weight: 700;
 }
 
+/* Media Query Responsive purpose */
+
 @media screen and (max-width:1200px) {
     form {
         background: rgb(92, 238, 89);
