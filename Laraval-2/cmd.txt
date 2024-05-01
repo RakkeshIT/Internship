@@ -1,0 +1,20 @@
+cpmposer create-project laravel/laravel projectA1
+
+cd projectA1
+php artisan server
+
+create controller
+-------------------------------
+php artisan make:controller products[path: C:\Users\HP\Desktop\Laraval-2\projectA1\app\Http\Controllers\products.php]
+
+
+Model Created
+-----------------------------------
+php artisan make:model product m
+
+
+
+Migration
+---------------------------------
+
+php artisan migrate:fresh
