@@ -61,7 +61,7 @@
     <!-- Row -->
     <div class="button mt-3">
         <button class="btn btn-primary btn-sm" nane="save" id="save">Update</button>
-        <button class="btn btn-danger btn-sm" name="clear" id="clear">Clear</button>
+        <input class="btn btn-danger btn-sm" type="reset" name="clear" id="clear" value="clear">    
     </div>
 </form>
 </div>
