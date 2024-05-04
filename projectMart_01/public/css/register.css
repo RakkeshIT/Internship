@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    max-width: 100%;
+    background: rgb(52, 4, 85);
+    background: linear-gradient(77deg, rgba(52, 4, 85, 1) 19%, rgba(81, 5, 129, 1) 56%, rgba(110, 5, 129, 1) 85%);
+    background-repeat: no-repeat;
+}
+
+.registration .container {
+
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
