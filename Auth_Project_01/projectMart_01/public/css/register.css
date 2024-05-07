@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    max-width: 100%;
+    background: #340455;
+    background: linear-gradient(77deg, rgba(52, 4, 85, 1) 19%, rgba(81, 5, 129, 1) 56%, rgba(110, 5, 129, 1) 85%);
+    background-repeat: no-repeat;
+}
+
+.registration .container {
+
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    position: relative;
+    right: 30px;
+    color: aliceblue;
+    border: 1px solid #340455;
+    padding: 4px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+nav ul a:hover {
+    border: 2px solid #09d882;
+    box-shadow: 0 0 10px #09d882, 0 0 80px #09d882;
+}
