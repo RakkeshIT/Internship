@@ -216,6 +216,10 @@ body {
     box-shadow: 0 0 10px #d808df, 0 0 100px #d808df, 0 0 150px #d808df;
 }
 
+.end-images {
+    height: 20vh;
+}
+
 .end-images a i {
     position: relative;
     top: 20%;
@@ -249,20 +253,30 @@ body {
 
     }
 
-    .section-4 {
+    .form-section {
         margin-bottom: 20px;
         display: flex;
 
     }
 
-    .section-4 {
+    .form-section {
         text-align: center;
         margin-bottom: 20px;
         display: block;
     }
 
-    .section-4 img {
+    .form-section img {
         width: 200px;
+    }
+
+    .form-section .address-title {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .form-section .form-part-one {
+        margin: auto;
     }
 
     .end-sectiom .link {
