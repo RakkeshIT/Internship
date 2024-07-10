@@ -265,4 +265,28 @@ body {
         width: 200px;
     }
 
+    .end-sectiom .link {
+        width: 100% !important;
+    }
+
+    .end-sectiom .link a:after {
+        display: none;
+    }
+
+    .end-images {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .end-images .arrow {
+        display: none;
+    }
+
+    .end-images .img-2 {
+        display: none;
+    }
+
 }
