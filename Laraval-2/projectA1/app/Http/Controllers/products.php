@@ -46,7 +46,7 @@ class products extends Controller
     }
     public function show($id)
     {
-        $Product = Product::where('id', $id)->first();
+        $Product = Product::where('id', operator: $id)->first();
         return view('templates.show', ['Product' => $Product]);
     }
     public function edit($id)
